@@ -1,0 +1,11 @@
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+    justify-content: center;
+    color: orange;
+    background-color: rgb(240, 240, 240);
+}
+
+.accordion-button::after {
+    content: none;
+}
