@@ -19,13 +19,13 @@
             }
 
             .icon-about {
-                color: $color-text-primary;
-                width: $base-font-size * 4.5;
-                height: $base-font-size * 4.5;
-                border-radius: 100%;
-                line-height: $base-font-size * 4.5;
-                background-color: $color-primary;
-                margin: $margin-none auto $baseline;
+                color: red;
+                width: 96px;
+                height: 96px;
+                border-radius: 50%;
+                 line-height: $base-font-size * 4.5;
+                // background-color: green;
+                 margin: $margin-none auto $baseline;
             }
         }
 	}
@@ -137,9 +137,9 @@
                 height:100%;
                 opacity: 0;
                 background: $color-portfolio-hover;
-                -webkit-transition: all .35s;
-                -moz-transition: all .35s;
-                transition: all .35s;
+                -webkit-transition: all 1s;
+                -moz-transition: all 1s;
+                transition: all 1s;
 
                 .portfolio-box-caption-content {
                     position: absolute;
@@ -177,7 +177,12 @@
             border-radius: 100%;
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-primary;
+            transition: all 0.5s;
         }
+        .icon-services:hover {
+            transform: rotate(-45deg);
+
+        } 
 
 
         .counters-box {

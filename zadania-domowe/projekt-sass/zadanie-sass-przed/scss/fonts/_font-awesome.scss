@@ -16,11 +16,12 @@
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
+  font-size: 22px;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
+  padding-top: 80px;
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {

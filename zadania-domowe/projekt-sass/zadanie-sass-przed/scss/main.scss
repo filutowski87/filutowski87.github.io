@@ -21,7 +21,7 @@
 * 
 * + 3.0 - Base styles
 * 		- 3.1 - Normalize
-* 		- 3.2 - Base styles
+* 		- 3.2 - e styles
 * 		- 3.3 - IE 8 styles
 *
 * 
@@ -80,7 +80,15 @@
 =            1.0 - Settings and helpers            =
 ==================================================*/
 	@import "utilities/imports";
+
 /***/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic&subset=latin,latin-ext);
+
+@import url(https://fonts.googleapis.com/css?family=Archivo+Black|Raleway:300i,400,400i,700,700i&amp;subset=latin-ext);
+
+
 /*==========  1.2 - Fonts  ==========*/	
 	@import "fonts/font-awesome";
 	@import "utilities/settings";

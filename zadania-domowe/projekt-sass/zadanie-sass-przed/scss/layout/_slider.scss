@@ -42,7 +42,6 @@
 
 #main-slider {
 	top: 100px;
-	font-size: 38px;
 
 	.carousel-caption {
 		top: 20%;
@@ -50,15 +49,13 @@
 		p, h1 {	
 			color: $color-text-primary;
 			text-transform: capitalize;
-			font-size: 38px;
 		}
 
 		h1 {
-			
+			font-size: $base-font-size + 38;
+			letter-spacing: 4px;
 			margin-top: $baseline;
 			margin-bottom: $baseline;
-			font-size: 38px;
-			letter-spacing: 4px;
 			text-transform: uppercase;
 		}
 
@@ -69,8 +66,8 @@
 		}
 
 		.btn-primary {
-			margin-top: $baseline * 2;
-			font-size: $base-font-size - 2;
+			margin-top: 24px;
+			font-size: 22px;
 			padding: 10px 12px;
 		}
 	}
@@ -84,7 +81,6 @@
 
 	#main-slider {
 		top: 100px;
-		font-size: 38px;
 
 		.carousel-caption {
 			top: 20%;
@@ -95,7 +91,7 @@
 			}
 
 			h1 {
-				font-size: 38px;
+				font-size: $base-font-size + 20;
 				margin-top: $baseline;
 				margin-bottom: $baseline;
 			}
@@ -169,7 +165,7 @@
 			}
 
 			h1 {
-				font-size: ;
+				font-size: $base-font-size + 5;
 				margin-top: $baseline * 0.75;
 				margin-bottom: $baseline * 0.75;
 			}
@@ -248,7 +244,7 @@
 			}
 
 			h1 {
-				font-size: 38px;
+				font-size: $base-font-size * 0.75;
 				margin-top: $margin-none;
 				margin-bottom: $margin-none;
 			}
