@@ -11340,7 +11340,7 @@ hr {
 }
 
 hr.divider-light-dark {
-  width: 25px;
+  width: 150px;
   border-color: #a5e200;
   border-width: 3px;
   opacity: 50%;
@@ -11497,8 +11497,7 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  line-height: 72px;
-  margin: 0 auto 24px;
+  line-height: 96px;
 }
 @media (max-width: 768px) {
   .t108-one-page #about {
@@ -11627,7 +11626,8 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   margin-bottom: 0;
 }
 .t108-one-page #counters-services .counters-box .divider-light-dark {
-  width: 48px;
+  width: 25px;
+  opacity: 50%;
   margin-left: 0;
   margin-bottom: 20px;
 }
